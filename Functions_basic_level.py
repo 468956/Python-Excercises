@@ -16,7 +16,7 @@ def show_basic_menu():
             "2. Add 2 numbers",
             "3. Ever or Odd",
             "4. Adult",
-            "5. Temperature",
+            "5. Temperat    ure",
             "6. Area of a triangle",
             "7. Exit"
         ]
@@ -43,7 +43,7 @@ def greeting(message):
     # Escribe una función que reciba dos números y devuelva su suma.
 
 def addNumbers(num1, num2):
-    return num1+num2
+    return int(num1+num2)
 
     # Número par o impar
     # Crea una función que determine si un número es par o impar.
@@ -81,10 +81,7 @@ def larger_in_list(numList):
     for i in numList:
         if i > i:
             larger = i
-    return i
-        
-
-
+    return f"The larger number is: {i}"
 
     # Contar letras
     # Escribe una función que cuente cuántas veces aparece una letra en una palabra.
@@ -96,4 +93,3 @@ def countLetter(word, letter):
         if i == letter:
             cont += 1
     return f"{letter} appears {cont} time" if cont == 1 else f"{letter} appears {cont} times"
-print(countLetter("buenas", "b"))
