@@ -1,4 +1,4 @@
-# 🟡 Nivel Intermedio
+# 🟡 Middle level
 
 #     Filtrar pares
 #     Crea una función que reciba una lista de números y devuelva solo los pares.
@@ -47,8 +47,7 @@ def delRepeated(elemList):
             newElemList.append(i)
         else:
             seen.append(i) 
-    return seen, newElemList
-
+    return seen
 #     FizzBuzz
 #     Crea una función que reciba un número y devuelva "Fizz", "Buzz" o "FizzBuzz" según las reglas del juego.
 
