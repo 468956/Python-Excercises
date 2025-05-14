@@ -1,4 +1,4 @@
-# 🟡 Middle level
+# 🟡 Nivel intermedio
 
 #     Filtrar pares
 #     Crea una función que reciba una lista de números y devuelva solo los pares.
