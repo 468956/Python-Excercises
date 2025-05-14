@@ -8,15 +8,9 @@ RESET = "\033[0m"
 
 def clear_screen(): os.system('cls' if os.name == 'nt' else 'clear')
 
-def show_menu():
-    options = [
-            "1. Basic",
-            "2. Middle",
-            "3. Advanced",
-            "4. Exit"
-        ]
+def show_menu(options, header):
 
-    title = "PYTHON EXCERCISES"
+    title = header
 
     max_width = max(len(option) for option in options)
     total_width = max(len(title), max_width) + 6
